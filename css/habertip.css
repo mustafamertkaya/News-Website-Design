@@ -1,0 +1,19 @@
+.hbr{
+    color:#ffffff;
+    word-wrap: break-word;
+    margin: auto;
+    width: 600px;
+    text-align: center;
+}
+.hbr1{
+    color:#ffffff;
+    word-wrap: break-word;
+    margin: auto;
+    width: 1050;
+    text-align: center;
+}
+.textwrapleft{
+    float: left;
+    margin: 10px;
+}
+

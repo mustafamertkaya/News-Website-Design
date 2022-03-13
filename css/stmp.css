@@ -1,0 +1,43 @@
+.sitemap a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+}
+.sitemap li {
+  list-style-type: none;
+  margin-left: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 0.5em;
+  line-height: 2;
+  
+}
+.sitemap > li:first-child {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.sitemap ul {
+  margin-left: 0.5em;
+}
+.sitemap ul li {
+  border-left: 3px solid #ddd;
+}
+.sitemap ul li a {
+  font-weight: bold;
+  color: #00aee5;
+}
+.sitemap ul ul {
+  margin-left: 0.5em;
+}
+.sitemap ul ul li {
+  border-left: 3px solid #00aee5;
+}
+.sitemap ul ul li a {
+  font-weight: normal;
+  color: #fff;
+}
+.sitemap div {
+  text-align: center;
+  justify-content: center;
+}

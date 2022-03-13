@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<title>Business Cards || Login</title>
+		
+		<link href="css/girisEkrani.css" rel="stylesheet" type="text/css">
+		
+	</head>
+
+
+	<body  onload="load()">
+		
+
+		<div id="container">
+			<div id="tabs" class="login-box">
+				
+				
+			</div>
+	
+			<div  id="cont" class="login-box">
+				<div id="login" class="comm">
+					<h3>Giriş Yap</h3>
+	
+					<input id="se" class="kutular" type="email" placeholder="Kullanıcı Adı" required/>
+					<input id="sp" class="kutular" type="password" placeholder="Sifre"
+					 required/>
+					<input type="submit" onclick="login()" value="Giriş Yap"/>
+					
+					<a id="lt" class="buttonstyle" onclick="loginTabFun()">Giris Yap</a>
+				    <a id="rt" class="buttonstyle" onclick="regTabFun()">Kayıt Ol</a>
+					
+				</div>
+				
+				
+				<div id="register" class="comm">
+					<h3>Kayıt Ol</h3>
+	
+					<input id="re" class="kutular" type="email" placeholder="Kullanıcı Adı" required/>
+					<input id="rp" class="kutular" type="password" placeholder="Sifre" required/>
+					<input id="rrp" class="kutular" type="password" placeholder="Tekrar Sifre" required/>
+					<input   type="submit" onclick="register()"  value="Kayıt Ol"/>
+					
+					<a id="lt" class="buttonstyle" onclick="loginTabFun()">Giris Yap</a>
+				    <a id="rt" class="buttonstyle" onclick="regTabFun()">Kayıt Ol</a>
+				</div >
+				
+				
+				
+			</div>
+			
+		</div>
+		
+		<script src="js/girisjavascript.js">
+			
+		</script>
+	</body>
+
+</html>
